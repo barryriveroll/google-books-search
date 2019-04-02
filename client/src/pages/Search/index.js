@@ -38,7 +38,7 @@ class Search extends Component {
     return (
       <Fragment>
         <div style={styles.header} className="row center z-depth-1">
-          <h3 style={styles.skinnyHeader}>Search Page</h3>
+          <h3 style={styles.skinnyHeader}>Search For Books</h3>
           <form>
             <div className="input-field col s6">
               <input
