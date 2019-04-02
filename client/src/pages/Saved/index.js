@@ -35,7 +35,8 @@ class Saved extends Component {
           this.state.books.map((book, index) => (
             <Book
               remove={true}
-              key={book.title}
+              key={book._id}
+              id={book._id}
               author={book.author}
               thumbnail={book.thumbnail}
               index={index + 1}

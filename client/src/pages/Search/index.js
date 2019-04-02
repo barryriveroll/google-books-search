@@ -72,7 +72,7 @@ class Search extends Component {
           {this.state.bookResults.length ? (
             this.state.bookResults.map((book, index) => (
               <Book
-                key={book.volumeInfo.title}
+                key={book.id}
                 author={book.volumeInfo.authors}
                 thumbnail={
                   book.volumeInfo.imageLinks

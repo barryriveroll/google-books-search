@@ -98,13 +98,6 @@ function saveBook(book) {
 }
 
 function removeBook(book) {
-  const bookData = {
-    title: book.bookTitle,
-    author: book.author[0],
-    description: book.description,
-    thumbnail: book.thumbnail,
-    link: book.link
-  };
-  API.saveBook(bookData);
+  API.deleteBook(book.id);
 }
 export default Book;
